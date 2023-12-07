@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "g-notes",
+    "slug": "g-notes",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "g-notes"
+}
