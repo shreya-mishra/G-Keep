@@ -1,6 +1,7 @@
 import React from "react";
 import ColorPickerModal from "../../../../src/module/index/components/ColorPickerModal";
 import { render } from "@testing-library/react-native";
+import { describe, expect, test } from "@jest/globals";
 import "@testing-library/jest-native/extend-expect";
 
 describe("ColorPickerModel", () => {
@@ -18,6 +19,6 @@ describe("ColorPickerModel", () => {
       />
     );
     const colorPickerModel = getByTestId("colorPickerModel");
-    expect(colorPickerModel).toBeInTheDocument();
+    expect(colorPickerModel).toBeDefined();
   });
 });
