@@ -37,6 +37,7 @@ const CreateNote = ({ visible, onClose, onCreate }: createNoteType) => {
       transparent={true}
       visible={visible}
       onRequestClose={onClose}
+      testID="createNote"
     >
       <TouchableWithoutFeedback onPress={handleTouchablePress}>
         <View style={styles.modalContainer}>

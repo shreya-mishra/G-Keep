@@ -25,6 +25,7 @@ const ColorPickerModal = ({
       transparent={true}
       visible={visible}
       onRequestClose={onClose}
+      testID="colorPickerModel"
     >
       <View style={styles.modalContainer}>
         <View style={styles.modalContent}>

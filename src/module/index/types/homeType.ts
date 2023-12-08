@@ -18,6 +18,7 @@ type colorPickerModalType = {
   visible: boolean;
   onClose: () => void;
   onSelectColor: (color: string) => {};
+  testId?: string;
 };
 
 type createNoteType = {
